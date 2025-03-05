@@ -49,6 +49,7 @@ Each folder contains:
 # Installation & Setup
 
 To use SmartScan for vulnerability detection, follow these steps:
+
 1️⃣ Clone the Repository
     git clone https://github.com/Sowmya/SmartScan.git
 cd SmartScan
