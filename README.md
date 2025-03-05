@@ -10,19 +10,33 @@ The repository is organized into the following directories:
 SmartScan/
 
 │── Reentrancy/
+
 │── Integer_Overflow/
+
 │── Access_Control_Misconfiguration/
+
 │── Front_Running/
+
 │── Timestamp_Dependence/
+
 │── Unchecked_Call_Return/
+
 │── Unprotected_SelfDestruct/
+
 │── DelegateCall_Issues/
+
 │── Denial_of_Service/
+
 │── Short_Address_Attack/
+
 │── Storage_Manipulation/
+
 │── TX_Origin_Authentication/
+
 │── Floating_Point_Precision/
+
 │── Weak_Randomness/
+
 │── README.md
 
 Each folder contains:
