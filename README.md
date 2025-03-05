@@ -68,21 +68,22 @@ nuXmv reentrancy.smv
     
 # Detected Vulnerabilities
 SmartScan formally verifies the following vulnerabilities:
-#	   Vulnerability	   Detection Method
-1	Reentrancy Attack	FSM + CTL Model Checking
-2	Integer Overflow	Symbolic Model Verification
-3	Access Control Misconfiguration	FSM State Transition Analysis
-4	Front-Running Attack	Execution Order Verification
-5	Timestamp Dependence	Temporal Model Checking
-6	Unchecked Call Return	Static Analysis + FSM
-7	Unprotected SelfDestruct	Ownership & State Verification
-8	DelegateCall Issues	Execution Path Analysis
-9	Denial of Service (Gas Limit)	Computation Cost Model
-10	Short Address Attack	Parameter Length Validation
-11	Storage Manipulation	Unauthorized State Modification
-12	TX Origin Authentication	Authentication Flow Analysis
-13	Floating Point Precision Issues	Numeric Computation Verification
-14	Weak Randomness	Entropy Source Analysis
+|#	   |Vulnerability	  |  Detection Method |
+|--- | ------------------| ------------------- |
+|1	   |Reentrancy Attack |	FSM + CTL Model Checking  |
+|2	| Integer Overflow	| Symbolic Model Verification |
+|3	 | Access Control Misconfiguration	| FSM State Transition Analysis |
+|4	| Front-Running Attack |	Execution Order Verification |
+|5	| Timestamp Dependence	| Temporal Model Checking |
+|6	| Unchecked Call Return	| Static Analysis + FSM |
+|7	| Unprotected SelfDestruct |	Ownership & State Verification |
+|8	| DelegateCall Issues	| Execution Path Analysis |
+|9	| Denial of Service (Gas Limit) |	Computation Cost Model |
+|10	| Short Address Attack | 	Parameter Length Validation |
+|11	| Storage Manipulation	| Unauthorized State Modification |
+|12	| TX Origin Authentication |	Authentication Flow Analysis |
+|13	| Floating Point Precision Issues	| Numeric Computation Verification |
+|14	| Weak Randomness	| Entropy Source Analysis |
 
 # Example:  Running SmartScan on Reentrancy Attack
 1.	Navigate to the Reentrancy/ folder.
