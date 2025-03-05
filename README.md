@@ -2,8 +2,10 @@ SmartScan: Formal Verification Framework for Smart Contracts
 Overview
 SmartScan is a formal verification framework designed to detect 14 critical vulnerabilities in Solidity-based smart contracts. By leveraging Finite State Machine (FSM) modeling and Computation Tree Logic (CTL)-based formal verification, SmartScan ensures systematic security validation for blockchain applications.
 This repository contains SmartScan implementations for detecting 14 vulnerabilities, including reentrancy, integer overflow, access control misconfigurations, and front-running attacks. The codebase is structured to allow researchers and developers to analyze, test, and improve smart contract security using formal methods.
+
 Repository Structure
 The repository is organized into the following directories:
+
 SmartScan/
 │── Reentrancy/
 │── Integer_Overflow/
@@ -20,6 +22,7 @@ SmartScan/
 │── Floating_Point_Precision/
 │── Weak_Randomness/
 │── README.md
+
 Each folder contains:
 •	Solidity smart contract code demonstrating the vulnerability.
 •	FSM & BIP model files for formal verification.
