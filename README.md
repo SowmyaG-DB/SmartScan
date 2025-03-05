@@ -96,8 +96,10 @@ SmartScan formally verifies the following vulnerabilities:
    
 # Research & Citation
 SmartScan has been developed as part of academic research on smart contract security. If you use this repository in your work, please cite the following papers:
-      1.	Sowmya, G. and Sridevi, R. (2025). "SmartScan: A Comprehensive Framework for Efficient and Optimized Formal Verification of Complex Blockchain Smart Contracts." Journal of Theoretical and Applied                 Information Technology, 103(3), pp. 814-834. Available at: https://www.jatit.org/volumes/Vol103No3/4Vol103No3.pdf
-      2.	Sowmya, G. and Sridevi, R. (2025). "SmartScan in Action: A Comprehensive Framework for Formal Verification of Smart Contract Vulnerabilities." (Under Peer Review)
+      
+1.	Sowmya, G. and Sridevi, R. (2025). "SmartScan: A Comprehensive Framework for Efficient and Optimized Formal Verification of Complex Blockchain Smart Contracts." Journal of Theoretical and Applied                 Information Technology, 103(3), pp. 814-834. Available at: https://www.jatit.org/volumes/Vol103No3/4Vol103No3.pdf
+
+2.	Sowmya, G. and Sridevi, R. (2025). "SmartScan in Action: A Comprehensive Framework for Formal Verification of Smart Contract Vulnerabilities." (Under Peer Review)
           
 # Contributions & Contact
 
